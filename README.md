@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # DocuMind — Document-Based LLM Chatbot (RAG)
 
 A local, educational RAG application with a React/Vite frontend, FastAPI backend, Sentence Transformers embeddings, cosine-similarity retrieval, and an Ollama local LLM. Supports PDF, DOCX, and TXT.
@@ -150,3 +151,7 @@ document-chatbot-project/
 # DOC_chatbot
 doc_chatbot allow users to instantly query, converse with, and extract specific insights from large volumes of text using natural language questions.
 >>>>>>> 351bcc824e323af5a439548faf0bd63b57b81609
+=======
+# DOC_chatbot
+doc_chatbot allow users to instantly query, converse with, and extract specific insights from large volumes of text using natural language questions.
+>>>>>>> origin/main
