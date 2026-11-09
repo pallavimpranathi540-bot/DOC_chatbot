@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# DocuMind — Document-Based LLM Chatbot (RAG)
+﻿# DocuMind â€” Document-Based LLM Chatbot (RAG)
 
 A local, educational RAG application with a React/Vite frontend, FastAPI backend, Sentence Transformers embeddings, cosine-similarity retrieval, and an Ollama local LLM. Supports PDF, DOCX, and TXT.
 
@@ -107,17 +105,17 @@ Expected not-found response:
 
 ```text
 document-chatbot-project/
-├── README.md
-├── backend/
-│   ├── main.py
-│   └── requirements.txt
-└── frontend/
-    ├── index.html
-    ├── package.json
-    └── src/
-        ├── App.jsx
-        ├── main.jsx
-        └── styles.css
+â”œâ”€â”€ README.md
+â”œâ”€â”€ backend/
+â”‚   â”œâ”€â”€ main.py
+â”‚   â””â”€â”€ requirements.txt
+â””â”€â”€ frontend/
+    â”œâ”€â”€ index.html
+    â”œâ”€â”€ package.json
+    â””â”€â”€ src/
+        â”œâ”€â”€ App.jsx
+        â”œâ”€â”€ main.jsx
+        â””â”€â”€ styles.css
 ```
 
 ## How RAG works in this app
@@ -147,11 +145,3 @@ document-chatbot-project/
 - **Frontend shows Backend offline:** check that Uvicorn is still running at port 8000.
 - **CORS error:** run Vite at its default `http://localhost:5173` URL.
 - **Out-of-scope decision is too strict/lenient:** test several known questions and adjust `MIN_SIMILARITY` in `backend/main.py`; do not tune on just one question.
-=======
-# DOC_chatbot
-doc_chatbot allow users to instantly query, converse with, and extract specific insights from large volumes of text using natural language questions.
->>>>>>> 351bcc824e323af5a439548faf0bd63b57b81609
-=======
-# DOC_chatbot
-doc_chatbot allow users to instantly query, converse with, and extract specific insights from large volumes of text using natural language questions.
->>>>>>> origin/main
